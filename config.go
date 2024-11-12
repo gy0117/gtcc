@@ -8,3 +8,7 @@ type Config struct {
 	// polling transaction execution status
 	MonitorInterval time.Duration
 }
+
+func newConfig() *Config {
+	return &Config{}
+}
